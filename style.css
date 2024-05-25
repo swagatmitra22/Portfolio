@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&display=swap");
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+  font-family: "Reddit Sans";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.head-container {
+  background-color: rgb(129, 182, 76);
+  background-image: url(images/background.png);
+  background-size: contain;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.head-container img {
+  margin: 2.5rem;
+  height: 18rem;
+  width: 18rem;
+  object-fit: cover;
+  border: 15px solid rgb(0, 69, 0);
+  border-radius: 50%;
+}
+
+.name-head h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+  height: fit-content;
+  font-size: 4rem;
+  font-weight: 1000;
+}
+
+.name-head h2 {
+  padding-bottom: 3rem;
+}
+
+.social-media {
+  display: flex;
+  list-style: none;
+  font-size: 2.5rem;
+}
+
+.social-media li {
+  padding: 0rem 1.5rem;
+}
+
+.social-media :first-child {
+  padding-left: 0rem;
+}
+
+.social-media i {
+  color: rgb(0, 69, 0);
+}
+
+.social-media li :hover {
+  color: rgb(0, 94, 0);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 5vw;
+  height: 100%;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding-top: 0vh;
+  text-align: center;
+  align-items: center;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0rem;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+
+.sidebar a:hover {
+  background-color: bisque;
+  color: #000000;
+}
+
+section {
+  width: 95vw;
+  padding: 2rem 4rem 0rem 4rem;
+  text-align: justify;
+  background-color: #333;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  color: lightgreen;
+}
+
+section p,
+ul {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  color: white;
+  font-weight: 300;
+}
+
+section a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+.divider {
+  padding: 3rem 0rem 3rem 0rem;
+  text-align: center;
+  font-size: 2rem;
+  word-spacing: 1rem;
+  color: bisque;
+}
+
+.mirror-icon {
+  transform: scaleX(-1);
+}
+
+section ul {
+  list-style: none;
+}
+
+.paint-list i {
+  padding-right: 1rem;
+}
+
+section h2 {
+  color: bisque;
+  font-size: 2rem;
+  padding: 1rem 0rem;
+}
+
+.project-list {
+  padding-right: 1rem;
+}
+
+.projects p {
+  padding-bottom: 1rem;
+}
+
+.contact {
+  background-color: black;
+  padding-bottom: 3rem;
+}
+
+.contact p {
+  padding-bottom: 1rem;
+}
+
+.contact-list i {
+  padding-right: 1rem;
+}
+
+#email-id {
+  font-weight: 300;
+}
+
+.contact-container {
+  display: inline-block;
+}
+
+.contact-social-media {
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.contact-social-media li {
+  padding: 0rem 1rem;
+}
+
+.contact-social-media i {
+  color: bisque;
+}
+
+.contact-social-media li :hover {
+  color: rgb(255, 189, 109);
+}
+
+footer {
+  background-color: black;
+  color: lightgray;
+  text-align: center;
+}
+
+.right-float {
+  margin-top: 2rem;
+  float: right;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
